@@ -8,7 +8,7 @@ server:
 
 spring:
   application:
-    name: user-web
+    name: project-web
   thymeleaf:
     mode: LEGACYHTML5
     encoding: UTF-8
