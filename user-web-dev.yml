@@ -40,6 +40,6 @@ feign:
 ribbon:
   eureka:
     enabled: true
-  MaxAutoRetries: 1
-  MaxAutoRetriesNextServer: 2
+  MaxAutoRetries: 0
+  MaxAutoRetriesNextServer: 0
   OkToRetryOnAllOperations: false
