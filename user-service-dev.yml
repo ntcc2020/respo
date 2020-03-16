@@ -32,3 +32,16 @@ spring:
 mybatis:
   type-aliases-package: com.ntcc.userservice.entity
   mapper-locations: classpath:mapper/*.xml
+
+token:
+  seconds: 604800
+
+wx:
+#  app-id: wxb1a2556550fc75d0
+#  app-secret: bd4496c2ddaac18a9ba9df2908f3c6c9
+  app-id: wx1787f42138299605
+  app-secret: 503ec79812e385883c0930208f5a75c8
+  mch-id: 111111
+  mch-key: xxxxxx
+  notify-url: http://www.example.com/wx/order/pay-notify
+  key-path: xxxxx
