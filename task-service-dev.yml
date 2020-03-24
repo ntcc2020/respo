@@ -20,7 +20,7 @@ spring:
         url: http://localhost:8084
   datasource:
     druid:
-      url: jdbc:mysql://rm-bp1j1c9hp2rusl5819o.mysql.rds.aliyuncs.com:3306/ntcc_test?useUnicode=true&characterEncoding=utf-8&serverTimezone=UTC&useSSL=false
+      url: jdbc:mysql://47.100.218.30:3306/ntcc_test?useUnicode=true&characterEncoding=utf-8&serverTimezone=UTC&useSSL=false
       username: ntcc
       password: ntcc@2020
       initial-size: 1
