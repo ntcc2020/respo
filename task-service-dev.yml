@@ -10,7 +10,7 @@ spring:
   application:
     name: task-service
   rabbitmq:
-    host: 47.114.165.181
+    host: 47.100.218.30
     port: 5672
     username: ntcc
     password: ntcc@2020
